@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "competition_successes",
+  "info": {
+    "singularName": "competition-success",
+    "pluralName": "competition-successes",
+    "displayName": "Competition Success",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Competition": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "competitors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "competition.competitor-success"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "competition.competition-images"
+    }
+  }
+}

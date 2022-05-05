@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "weekdays",
+  "info": {
+    "singularName": "weekday",
+    "pluralName": "weekdays",
+    "displayName": "Weekday"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "day": {
+      "type": "enumeration",
+      "enum": [
+        "pon",
+        "uto",
+        "sri",
+        "cet",
+        "pet",
+        "sub",
+        "ned"
+      ],
+      "default": "pon",
+      "required": false
+    },
+    "trainings": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::location.location",
+      "mappedBy": "weekdays"
+    }
+  }
+}

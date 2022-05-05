@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_competition_competition_images",
+  "info": {
+    "displayName": "Competition Images",
+    "icon": "camera"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

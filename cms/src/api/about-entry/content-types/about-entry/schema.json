@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_entries",
+  "info": {
+    "singularName": "about-entry",
+    "pluralName": "about-entries",
+    "displayName": "About Entry",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Body": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

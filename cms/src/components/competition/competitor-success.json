@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_competition_competitor_successes",
+  "info": {
+    "displayName": "Competitor Success",
+    "icon": "medal"
+  },
+  "options": {},
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "Place": {
+      "type": "enumeration",
+      "enum": [
+        "first",
+        "second",
+        "third"
+      ]
+    }
+  }
+}
